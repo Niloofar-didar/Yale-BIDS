@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yale BIDS Technical Assessment</title>
+    <style>
+        /* Center-align the title */
+        .title {
+            text-align: left;
+        }
+    </style>
+</head>
+    <div class="title">
+        <h1>Welcome to My Web App </h1>
+        <h3>Implemented as a part of <span style="color: blue;">Yale BIDS Technical Assessment</span></h3>
+    </div>
+
+<body>
+
+   <style>
+    .large-button {
+        font-size: 30px; /* Adjust the font size as needed */
+        width: 140px; /* Adjust the width as needed */
+        height: 40px; /* Adjust the height as needed */
+    }
+</style>
+
+     <form action="/" method="post">
+        <h3>Go to API page:   <button type="submit" name="action" value="api" style="font-size: 1.1em;" class="large-button">APIs</button>
+ </h3>
+    </form>
+
+    <h2>Search PubMed</h2>
+    <form action="/" method="post">
+        <label for="term">Enter search term:</label>
+        <input type="text" id="term" name="term">
+        <button type="submit" name="action" value="search">Search</button>
+    </form>
+
+    <h2>Fetch PubMed</h2>
+    <form action="/" method="post">
+        <label for="taskID">Enter task ID:</label>
+        <input type="text" id="taskID" name="taskID">
+        <button type="submit" name="action" value="fetch">Fetch</button>
+    </form>
+
+
+
+</body>
+</html>
