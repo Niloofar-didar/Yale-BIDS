@@ -5,3 +5,11 @@
 docker build -t yale-app .
 
 docker run -p 5000:5000 -t -i yale-app:latest
+
+
+
+
+
+
+
+
