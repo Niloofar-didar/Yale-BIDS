@@ -8,8 +8,8 @@ docker run -p 5000:5000 -t -i yale-app:latest
 
 
 Please check below some photos of the app
+![Alt text](relative%20https://github.com/Niloofar-didar/Yale-BIDS/blob/master/app%20images/home%20page.png?raw=true "Title")
 
-https://github.com/Niloofar-didar/Yale-BIDS/blob/master/app%20images/home%20page.png
 
 https://github.com/Niloofar-didar/Yale-BIDS/blob/master/app%20images/api.png
 
